@@ -12,8 +12,12 @@ struct ContentView: View {
         NavigationStack {
             List {
                 Text("Hello, world!")
+                    .foregroundColor(Color.red)
                 Text("Hello, world!")
+                    .foregroundColor(Color.red)
                 Text("Hello!")
+                    .foregroundColor(Color.yellow)
+                    
             }
             .navigationTitle("Menu")
         }
