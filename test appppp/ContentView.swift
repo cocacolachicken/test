@@ -13,7 +13,7 @@ struct ContentView: View {
             List {
                 Text("Hello, world!")
                 Text("Hello, world!")
-                Text("Hello, world!")
+                Text("Hello!")
             }
             .navigationTitle("Menu")
         }
